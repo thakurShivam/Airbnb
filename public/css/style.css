@@ -1,0 +1,145 @@
+body{
+    font-family: 'plus jaskata Sans' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*  container clss bollerplate  */
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: antiquewhite;
+}
+
+.fa-compass{
+    color:red;
+    font-size: 2em;
+}
+
+.nav-link{
+    color:black !important;
+}
+
+
+
+/* Footer Styling */
+
+.f-info{
+    display:flex;
+    text-align: center;
+    height: 8rem;
+   background-color: lightgray ;
+     flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+} 
+
+/* social  infromm.... */
+
+.f-info-social i{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.f-info-links a{
+    margin-right: 1rem;
+
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links,
+.f-info-brand,
+.f-info-social{
+   width: 100%;
+   display: flex;
+   justify-content:center;
+   align-items: space-evenly;
+   margin-right: 1rem;
+
+
+}
+
+.f-info-links a :hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+/*  Cards. effect. */
+ 
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color:blue;
+}
+
+
+/*  ancher tag  */
+
+.listing-link{
+    text-decoration: none;
+}
+
+
+
+
+.add-btn{
+    color: red !important;
+    border: none !important;
+}
+
+
+/*  edit page */
+.edit-btn{
+    color: blue !important;
+    border: none !important;
+}
+
+
+/*  show page */
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* map */
+
+#map{
+    height: 400px;
+    width: 80vh;
+}

@@ -1,0 +1,36 @@
+
+<!--  sucesss -->
+<%if(sucess && sucess.length){%>
+<div  class="alert alert-sucess alert-dismissible fade show co-6 offset-3"
+ role="alert">
+  
+    <%=sucess%>
+
+    <button type="button" 
+    class="btn-close"
+     data-bs-dismiss="alert"
+      aria-label="Close"
+    ></button>
+</div>
+<% } %>
+
+
+<!--  error  -->
+
+<%if(error && error.length){%>
+    <div  class="alert alert-danger alert-dismissible fade show co-6 offset-3"
+     role="alert">
+      
+        <%=error%>
+    
+        <button type="button" 
+        class="btn-close"
+         data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+    </div>
+    <% } %>
+
+
+
+    
